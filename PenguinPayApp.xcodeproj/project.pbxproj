@@ -23,6 +23,8 @@
 		94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */; };
 		94FE3CD5275EE09300E2CA60 /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */; };
 		94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */; };
+		94FE3CDF275EF2A200E2CA60 /* RecipientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */; };
+		94FE3CE0275EF2A200E2CA60 /* RecipientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRates.swift; sourceTree = "<group>"; };
 		94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
 		94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryImpl.swift; sourceTree = "<group>"; };
+		94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientViewController.swift; sourceTree = "<group>"; };
+		94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipientViewController.xib; sourceTree = "<group>"; };
 		9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +113,6 @@
 				DD6169893178A6BCC56F0923 /* Pods-PenguinPayAppTests.debug.xcconfig */,
 				357BAF9D830F71A7C631D1AB /* Pods-PenguinPayAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,7 +141,7 @@
 		94FE3C94275EDDA800E2CA60 /* PenguinPayApp */ = {
 			isa = PBXGroup;
 			children = (
-				94FE3CC5275EDF7F00E2CA60 /* Core */,
+				94FE3CD8275EF23B00E2CA60 /* Modules */,
 				94FE3C95275EDDA800E2CA60 /* AppDelegate.swift */,
 				94FE3C9E275EDDAC00E2CA60 /* Assets.xcassets */,
 				94FE3CA0275EDDAC00E2CA60 /* LaunchScreen.storyboard */,
@@ -208,6 +211,48 @@
 				94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		94FE3CD8275EF23B00E2CA60 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CD9275EF24A00E2CA60 /* Transfer */,
+				94FE3CC5275EDF7F00E2CA60 /* Core */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		94FE3CD9275EF24A00E2CA60 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CDC275EF27A00E2CA60 /* ViewModel */,
+				94FE3CDA275EF26000E2CA60 /* View */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		94FE3CDA275EF26000E2CA60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CDB275EF26800E2CA60 /* Recipient */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94FE3CDB275EF26800E2CA60 /* Recipient */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */,
+				94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */,
+			);
+			path = Recipient;
+			sourceTree = "<group>";
+		};
+		94FE3CDC275EF27A00E2CA60 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C2B3E86AC66F6355A5E0398E /* Frameworks */ = {
@@ -331,6 +376,7 @@
 			files = (
 				94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */,
 				94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */,
+				94FE3CE0275EF2A200E2CA60 /* RecipientViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +508,7 @@
 				94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */,
 				94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */,
 				94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */,
+				94FE3CDF275EF2A200E2CA60 /* RecipientViewController.swift in Sources */,
 				94FE3CCD275EE03400E2CA60 /* String.swift in Sources */,
 				94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */,
 				94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */,
