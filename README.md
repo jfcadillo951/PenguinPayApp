@@ -16,7 +16,7 @@ Pods:
 
 ## Usage
 - Clone this repository, branch : develop
-- Generate a apiKey for consuming Api of Exchange Rates [ExchangeRateApi](http://openexchangerates.org/), once you have your token replace it in Server.swift (for security reasons the apiKey is not commited in the repository):
+- Generate a apiKey for consuming Api of Exchange Rates [ExchangeRateApi](http://openexchangerates.org/), once you have your apiKey replace it in Server.swift (for security reasons the apiKey is not commited in the repository):
 
 ```
 struct ServerConstants {
