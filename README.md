@@ -27,7 +27,7 @@ struct ServerConstants {
 
 - Run the proyect
 
-## Pending Requiriments
+## Pending Requirements
 
 Due to the 3 hour development time limit:
 - The complete development of the transfer flow was prioritized, leaving aside the functionality of detecting the country of origin based on the phone number entered.
