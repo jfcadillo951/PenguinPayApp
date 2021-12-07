@@ -7,7 +7,7 @@ target 'PenguinPayApp' do
 
   pod 'RxSwift', '5.1.1'
   pod 'RxCocoa', '5.1.1'
-  pod 'ProgressHUD'
+  pod 'MBProgressHUD', '~> 1.2.0'
 
   target 'PenguinPayAppTests' do
     inherit! :search_paths

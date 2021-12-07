@@ -36,6 +36,9 @@
 		94FE3CF6275EF70E00E2CA60 /* CountryInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CF5275EF70E00E2CA60 /* CountryInputView.swift */; };
 		94FE3CF8275EF73A00E2CA60 /* CountryInputViewArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CF7275EF73A00E2CA60 /* CountryInputViewArgs.swift */; };
 		94FE3CFA275EF82F00E2CA60 /* CountryInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CF9275EF82F00E2CA60 /* CountryInputView.xib */; };
+		94FE3CFE275EFD3100E2CA60 /* TransferMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CFC275EFD3100E2CA60 /* TransferMoneyViewController.swift */; };
+		94FE3CFF275EFD3100E2CA60 /* TransferMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CFD275EFD3100E2CA60 /* TransferMoneyViewController.xib */; };
+		94FE3D01275EFDE700E2CA60 /* TransferMoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3D00275EFDE700E2CA60 /* TransferMoneyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,9 @@
 		94FE3CF5275EF70E00E2CA60 /* CountryInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInputView.swift; sourceTree = "<group>"; };
 		94FE3CF7275EF73A00E2CA60 /* CountryInputViewArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInputViewArgs.swift; sourceTree = "<group>"; };
 		94FE3CF9275EF82F00E2CA60 /* CountryInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryInputView.xib; sourceTree = "<group>"; };
+		94FE3CFC275EFD3100E2CA60 /* TransferMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyViewController.swift; sourceTree = "<group>"; };
+		94FE3CFD275EFD3100E2CA60 /* TransferMoneyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferMoneyViewController.xib; sourceTree = "<group>"; };
+		94FE3D00275EFDE700E2CA60 /* TransferMoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyViewModel.swift; sourceTree = "<group>"; };
 		9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -259,6 +265,7 @@
 		94FE3CDA275EF26000E2CA60 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				94FE3CFB275EFD1B00E2CA60 /* TransferMoney */,
 				94FE3CDB275EF26800E2CA60 /* Recipient */,
 			);
 			path = View;
@@ -277,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				94FE3CF0275EF61700E2CA60 /* RecipientViewModel.swift */,
+				94FE3D00275EFDE700E2CA60 /* TransferMoneyViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -318,6 +326,15 @@
 				94FE3CF9275EF82F00E2CA60 /* CountryInputView.xib */,
 			);
 			path = CountryInputView;
+			sourceTree = "<group>";
+		};
+		94FE3CFB275EFD1B00E2CA60 /* TransferMoney */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CFC275EFD3100E2CA60 /* TransferMoneyViewController.swift */,
+				94FE3CFD275EFD3100E2CA60 /* TransferMoneyViewController.xib */,
+			);
+			path = TransferMoney;
 			sourceTree = "<group>";
 		};
 		C2B3E86AC66F6355A5E0398E /* Frameworks */ = {
@@ -441,6 +458,7 @@
 			files = (
 				94FE3CFA275EF82F00E2CA60 /* CountryInputView.xib in Resources */,
 				94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */,
+				94FE3CFF275EFD3100E2CA60 /* TransferMoneyViewController.xib in Resources */,
 				94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */,
 				94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */,
 				94FE3CE0275EF2A200E2CA60 /* RecipientViewController.xib in Resources */,
@@ -575,6 +593,7 @@
 				94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */,
 				94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */,
 				94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */,
+				94FE3D01275EFDE700E2CA60 /* TransferMoneyViewModel.swift in Sources */,
 				94FE3CED275EF4D100E2CA60 /* Country.swift in Sources */,
 				94FE3CEF275EF4F800E2CA60 /* CountryOption.swift in Sources */,
 				94FE3CE8275EF3CE00E2CA60 /* TextState.swift in Sources */,
@@ -584,6 +603,7 @@
 				94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */,
 				94FE3CF1275EF61700E2CA60 /* RecipientViewModel.swift in Sources */,
 				94FE3CE6275EF3B200E2CA60 /* InputTextViewArgs.swift in Sources */,
+				94FE3CFE275EFD3100E2CA60 /* TransferMoneyViewController.swift in Sources */,
 				94FE3CF3275EF64800E2CA60 /* Recipient.swift in Sources */,
 				94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */,
 				94FE3CF8275EF73A00E2CA60 /* CountryInputViewArgs.swift in Sources */,
