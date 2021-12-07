@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -49,23 +50,11 @@
                                     </subviews>
                                     <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 </stackView>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiK-gd-USz">
-                                    <rect key="frame" x="0.0" y="0.0" width="398" height="50"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain"/>
-                                    <connections>
-                                        <action selector="onPicketTap:" destination="-1" eventType="touchUpInside" id="cBZ-xS-uHr"/>
-                                    </connections>
-                                </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="JiK-gd-USz" secondAttribute="bottom" id="43r-Jz-8ad"/>
-                                <constraint firstItem="JiK-gd-USz" firstAttribute="top" secondItem="EGB-QS-AMl" secondAttribute="top" id="PJF-y4-9La"/>
                                 <constraint firstAttribute="bottom" secondItem="cTF-rY-TmX" secondAttribute="bottom" id="bBH-CB-fvV"/>
                                 <constraint firstItem="cTF-rY-TmX" firstAttribute="top" secondItem="EGB-QS-AMl" secondAttribute="top" id="cCG-bd-qCr"/>
-                                <constraint firstAttribute="trailing" secondItem="JiK-gd-USz" secondAttribute="trailing" id="dlx-Ib-Wea"/>
-                                <constraint firstItem="JiK-gd-USz" firstAttribute="leading" secondItem="EGB-QS-AMl" secondAttribute="leading" id="hTv-jD-ncm"/>
                                 <constraint firstAttribute="trailing" secondItem="cTF-rY-TmX" secondAttribute="trailing" id="s9k-hd-b7o"/>
                                 <constraint firstItem="cTF-rY-TmX" firstAttribute="leading" secondItem="EGB-QS-AMl" secondAttribute="leading" id="u9y-WG-9ce"/>
                             </constraints>

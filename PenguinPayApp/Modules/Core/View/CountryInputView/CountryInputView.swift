@@ -29,6 +29,9 @@ final class CountryInputView: UIView, Renderable {
         displayOption(nil)
         pickerContainerView.layer.borderColor = UIColor.black.cgColor
         pickerContainerView.layer.borderWidth = 1
+        pickerContainerView.isUserInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(onPicketTap))
+        pickerContainerView.addGestureRecognizer(tapGesture)
     }
 
     var args: CountryInputViewArgs? {
@@ -43,7 +46,7 @@ final class CountryInputView: UIView, Renderable {
             }).disposed(by: disposeBag)
         }
     }
-    @IBAction func onPicketTap(_ sender: Any) {
+    @objc func onPicketTap() {
         delegate?.openCountryPicker()
     }
 }
