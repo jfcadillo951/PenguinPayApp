@@ -31,6 +31,11 @@
 		94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CE9275EF42900E2CA60 /* InputTextView.xib */; };
 		94FE3CED275EF4D100E2CA60 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CEC275EF4D100E2CA60 /* Country.swift */; };
 		94FE3CEF275EF4F800E2CA60 /* CountryOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */; };
+		94FE3CF1275EF61700E2CA60 /* RecipientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CF0275EF61700E2CA60 /* RecipientViewModel.swift */; };
+		94FE3CF3275EF64800E2CA60 /* Recipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CF2275EF64800E2CA60 /* Recipient.swift */; };
+		94FE3CF6275EF70E00E2CA60 /* CountryInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CF5275EF70E00E2CA60 /* CountryInputView.swift */; };
+		94FE3CF8275EF73A00E2CA60 /* CountryInputViewArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CF7275EF73A00E2CA60 /* CountryInputViewArgs.swift */; };
+		94FE3CFA275EF82F00E2CA60 /* CountryInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CF9275EF82F00E2CA60 /* CountryInputView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,11 @@
 		94FE3CE9275EF42900E2CA60 /* InputTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputTextView.xib; sourceTree = "<group>"; };
 		94FE3CEC275EF4D100E2CA60 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryOption.swift; sourceTree = "<group>"; };
+		94FE3CF0275EF61700E2CA60 /* RecipientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientViewModel.swift; sourceTree = "<group>"; };
+		94FE3CF2275EF64800E2CA60 /* Recipient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipient.swift; sourceTree = "<group>"; };
+		94FE3CF5275EF70E00E2CA60 /* CountryInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInputView.swift; sourceTree = "<group>"; };
+		94FE3CF7275EF73A00E2CA60 /* CountryInputViewArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInputViewArgs.swift; sourceTree = "<group>"; };
+		94FE3CF9275EF82F00E2CA60 /* CountryInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryInputView.xib; sourceTree = "<group>"; };
 		9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,8 +240,8 @@
 		94FE3CD8275EF23B00E2CA60 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				94FE3CD9275EF24A00E2CA60 /* Transfer */,
 				94FE3CC5275EDF7F00E2CA60 /* Core */,
+				94FE3CD9275EF24A00E2CA60 /* Transfer */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -266,6 +276,7 @@
 		94FE3CDC275EF27A00E2CA60 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				94FE3CF0275EF61700E2CA60 /* RecipientViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -273,6 +284,7 @@
 		94FE3CE1275EF35D00E2CA60 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				94FE3CF4275EF6F900E2CA60 /* CountryInputView */,
 				94FE3CE2275EF36A00E2CA60 /* InputTextView */,
 			);
 			path = View;
@@ -293,8 +305,19 @@
 			children = (
 				94FE3CEC275EF4D100E2CA60 /* Country.swift */,
 				94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */,
+				94FE3CF2275EF64800E2CA60 /* Recipient.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		94FE3CF4275EF6F900E2CA60 /* CountryInputView */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CF5275EF70E00E2CA60 /* CountryInputView.swift */,
+				94FE3CF7275EF73A00E2CA60 /* CountryInputViewArgs.swift */,
+				94FE3CF9275EF82F00E2CA60 /* CountryInputView.xib */,
+			);
+			path = CountryInputView;
 			sourceTree = "<group>";
 		};
 		C2B3E86AC66F6355A5E0398E /* Frameworks */ = {
@@ -416,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FE3CFA275EF82F00E2CA60 /* CountryInputView.xib in Resources */,
 				94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */,
 				94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */,
 				94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */,
@@ -558,8 +582,12 @@
 				94FE3CCD275EE03400E2CA60 /* String.swift in Sources */,
 				94FE3CE4275EF39200E2CA60 /* InputTextView.swift in Sources */,
 				94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */,
+				94FE3CF1275EF61700E2CA60 /* RecipientViewModel.swift in Sources */,
 				94FE3CE6275EF3B200E2CA60 /* InputTextViewArgs.swift in Sources */,
+				94FE3CF3275EF64800E2CA60 /* Recipient.swift in Sources */,
 				94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */,
+				94FE3CF8275EF73A00E2CA60 /* CountryInputViewArgs.swift in Sources */,
+				94FE3CF6275EF70E00E2CA60 /* CountryInputView.swift in Sources */,
 				94FE3CD5275EE09300E2CA60 /* ContentRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -714,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -737,6 +765,7 @@
 				INFOPLIST_FILE = PenguinPayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -748,7 +777,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -765,6 +794,7 @@
 				INFOPLIST_FILE = PenguinPayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -776,7 +806,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
