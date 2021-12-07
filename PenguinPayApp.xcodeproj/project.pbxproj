@@ -29,6 +29,8 @@
 		94FE3CE6275EF3B200E2CA60 /* InputTextViewArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */; };
 		94FE3CE8275EF3CE00E2CA60 /* TextState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE7275EF3CE00E2CA60 /* TextState.swift */; };
 		94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CE9275EF42900E2CA60 /* InputTextView.xib */; };
+		94FE3CED275EF4D100E2CA60 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CEC275EF4D100E2CA60 /* Country.swift */; };
+		94FE3CEF275EF4F800E2CA60 /* CountryOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextViewArgs.swift; sourceTree = "<group>"; };
 		94FE3CE7275EF3CE00E2CA60 /* TextState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextState.swift; sourceTree = "<group>"; };
 		94FE3CE9275EF42900E2CA60 /* InputTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputTextView.xib; sourceTree = "<group>"; };
+		94FE3CEC275EF4D100E2CA60 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryOption.swift; sourceTree = "<group>"; };
 		9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -235,6 +239,7 @@
 		94FE3CD9275EF24A00E2CA60 /* Transfer */ = {
 			isa = PBXGroup;
 			children = (
+				94FE3CEB275EF4C300E2CA60 /* Entities */,
 				94FE3CDC275EF27A00E2CA60 /* ViewModel */,
 				94FE3CDA275EF26000E2CA60 /* View */,
 			);
@@ -281,6 +286,15 @@
 				94FE3CE9275EF42900E2CA60 /* InputTextView.xib */,
 			);
 			path = InputTextView;
+			sourceTree = "<group>";
+		};
+		94FE3CEB275EF4C300E2CA60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CEC275EF4D100E2CA60 /* Country.swift */,
+				94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		C2B3E86AC66F6355A5E0398E /* Frameworks */ = {
@@ -537,6 +551,8 @@
 				94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */,
 				94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */,
 				94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */,
+				94FE3CED275EF4D100E2CA60 /* Country.swift in Sources */,
+				94FE3CEF275EF4F800E2CA60 /* CountryOption.swift in Sources */,
 				94FE3CE8275EF3CE00E2CA60 /* TextState.swift in Sources */,
 				94FE3CDF275EF2A200E2CA60 /* RecipientViewController.swift in Sources */,
 				94FE3CCD275EE03400E2CA60 /* String.swift in Sources */,
