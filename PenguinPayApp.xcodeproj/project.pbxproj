@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F7F09095AA914774328939 /* Pods_PenguinPayApp_PenguinPayAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D59CDD2DC5B6377F32F3BFF /* Pods_PenguinPayApp_PenguinPayAppUITests.framework */; };
+		3D9A96C3A97E777D4FB7BB5A /* Pods_PenguinPayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C87BB9178FB32035EADE30C /* Pods_PenguinPayApp.framework */; };
+		7709D7D5CC8312BE43208395 /* Pods_PenguinPayAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182E3360AF1C4DCFDBFCBD68 /* Pods_PenguinPayAppTests.framework */; };
 		94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3C95275EDDA800E2CA60 /* AppDelegate.swift */; };
-		94FE3C98275EDDA800E2CA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3C97275EDDA800E2CA60 /* SceneDelegate.swift */; };
-		94FE3C9A275EDDA800E2CA60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3C99275EDDA800E2CA60 /* ViewController.swift */; };
-		94FE3C9D275EDDA800E2CA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3C9B275EDDA800E2CA60 /* Main.storyboard */; };
 		94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3C9E275EDDAC00E2CA60 /* Assets.xcassets */; };
 		94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CA0275EDDAC00E2CA60 /* LaunchScreen.storyboard */; };
 		94FE3CAD275EDDAD00E2CA60 /* PenguinPayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CAC275EDDAD00E2CA60 /* PenguinPayAppTests.swift */; };
 		94FE3CB7275EDDAD00E2CA60 /* PenguinPayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CB6275EDDAD00E2CA60 /* PenguinPayAppUITests.swift */; };
 		94FE3CB9275EDDAD00E2CA60 /* PenguinPayAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CB8275EDDAD00E2CA60 /* PenguinPayAppUITestsLaunchTests.swift */; };
+		94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CC7275EDFBF00E2CA60 /* ServerConstants.swift */; };
+		94FE3CCB275EDFF400E2CA60 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CCA275EDFF400E2CA60 /* Renderable.swift */; };
+		94FE3CCD275EE03400E2CA60 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CCC275EE03400E2CA60 /* String.swift */; };
+		94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD0275EE07000E2CA60 /* CaseResult.swift */; };
+		94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */; };
+		94FE3CD5275EE09300E2CA60 /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */; };
+		94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */; };
+		94FE3CDF275EF2A200E2CA60 /* RecipientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */; };
+		94FE3CE0275EF2A200E2CA60 /* RecipientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */; };
+		94FE3CE4275EF39200E2CA60 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE3275EF39200E2CA60 /* InputTextView.swift */; };
+		94FE3CE6275EF3B200E2CA60 /* InputTextViewArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */; };
+		94FE3CE8275EF3CE00E2CA60 /* TextState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE7275EF3CE00E2CA60 /* TextState.swift */; };
+		94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CE9275EF42900E2CA60 /* InputTextView.xib */; };
+		94FE3CED275EF4D100E2CA60 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CEC275EF4D100E2CA60 /* Country.swift */; };
+		94FE3CEF275EF4F800E2CA60 /* CountryOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C87BB9178FB32035EADE30C /* Pods_PenguinPayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenguinPayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182E3360AF1C4DCFDBFCBD68 /* Pods_PenguinPayAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenguinPayAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		357BAF9D830F71A7C631D1AB /* Pods-PenguinPayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayAppTests.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayAppTests/Pods-PenguinPayAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D59CDD2DC5B6377F32F3BFF /* Pods_PenguinPayApp_PenguinPayAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenguinPayApp_PenguinPayAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FE3C92275EDDA800E2CA60 /* PenguinPayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenguinPayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FE3C95275EDDA800E2CA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94FE3C97275EDDA800E2CA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94FE3C99275EDDA800E2CA60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94FE3C9C275EDDA800E2CA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94FE3C9E275EDDAC00E2CA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94FE3CA1275EDDAC00E2CA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94FE3CA3275EDDAC00E2CA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +65,26 @@
 		94FE3CB2275EDDAD00E2CA60 /* PenguinPayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenguinPayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FE3CB6275EDDAD00E2CA60 /* PenguinPayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinPayAppUITests.swift; sourceTree = "<group>"; };
 		94FE3CB8275EDDAD00E2CA60 /* PenguinPayAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinPayAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94FE3CC7275EDFBF00E2CA60 /* ServerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConstants.swift; sourceTree = "<group>"; };
+		94FE3CCA275EDFF400E2CA60 /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		94FE3CCC275EE03400E2CA60 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		94FE3CD0275EE07000E2CA60 /* CaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseResult.swift; sourceTree = "<group>"; };
+		94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRates.swift; sourceTree = "<group>"; };
+		94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
+		94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryImpl.swift; sourceTree = "<group>"; };
+		94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientViewController.swift; sourceTree = "<group>"; };
+		94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipientViewController.xib; sourceTree = "<group>"; };
+		94FE3CE3275EF39200E2CA60 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextViewArgs.swift; sourceTree = "<group>"; };
+		94FE3CE7275EF3CE00E2CA60 /* TextState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextState.swift; sourceTree = "<group>"; };
+		94FE3CE9275EF42900E2CA60 /* InputTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputTextView.xib; sourceTree = "<group>"; };
+		94FE3CEC275EF4D100E2CA60 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryOption.swift; sourceTree = "<group>"; };
+		9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD6169893178A6BCC56F0923 /* Pods-PenguinPayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayAppTests/Pods-PenguinPayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDAEE3078B357CFC4333046B /* Pods-PenguinPayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9A96C3A97E777D4FB7BB5A /* Pods_PenguinPayApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7709D7D5CC8312BE43208395 /* Pods_PenguinPayAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F7F09095AA914774328939 /* Pods_PenguinPayApp_PenguinPayAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18CD6B3C95F3E4DF5232627A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */,
+				FDAEE3078B357CFC4333046B /* Pods-PenguinPayApp.release.xcconfig */,
+				9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */,
+				DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */,
+				DD6169893178A6BCC56F0923 /* Pods-PenguinPayAppTests.debug.xcconfig */,
+				357BAF9D830F71A7C631D1AB /* Pods-PenguinPayAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		94FE3C89275EDDA800E2CA60 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				94FE3CAB275EDDAD00E2CA60 /* PenguinPayAppTests */,
 				94FE3CB5275EDDAD00E2CA60 /* PenguinPayAppUITests */,
 				94FE3C93275EDDA800E2CA60 /* Products */,
+				18CD6B3C95F3E4DF5232627A /* Pods */,
+				C2B3E86AC66F6355A5E0398E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +153,8 @@
 		94FE3C94275EDDA800E2CA60 /* PenguinPayApp */ = {
 			isa = PBXGroup;
 			children = (
+				94FE3CD8275EF23B00E2CA60 /* Modules */,
 				94FE3C95275EDDA800E2CA60 /* AppDelegate.swift */,
-				94FE3C97275EDDA800E2CA60 /* SceneDelegate.swift */,
-				94FE3C99275EDDA800E2CA60 /* ViewController.swift */,
-				94FE3C9B275EDDA800E2CA60 /* Main.storyboard */,
 				94FE3C9E275EDDAC00E2CA60 /* Assets.xcassets */,
 				94FE3CA0275EDDAC00E2CA60 /* LaunchScreen.storyboard */,
 				94FE3CA3275EDDAC00E2CA60 /* Info.plist */,
@@ -127,6 +179,134 @@
 			path = PenguinPayAppUITests;
 			sourceTree = "<group>";
 		};
+		94FE3CC5275EDF7F00E2CA60 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CE1275EF35D00E2CA60 /* View */,
+				94FE3CCF275EE05F00E2CA60 /* Entities */,
+				94FE3CCE275EE05400E2CA60 /* Repository */,
+				94FE3CC9275EDFE300E2CA60 /* Extension */,
+				94FE3CC6275EDFB100E2CA60 /* Constants */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94FE3CC6275EDFB100E2CA60 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CC7275EDFBF00E2CA60 /* ServerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94FE3CC9275EDFE300E2CA60 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CCA275EDFF400E2CA60 /* Renderable.swift */,
+				94FE3CCC275EE03400E2CA60 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		94FE3CCE275EE05400E2CA60 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */,
+				94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		94FE3CCF275EE05F00E2CA60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CD0275EE07000E2CA60 /* CaseResult.swift */,
+				94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */,
+				94FE3CE7275EF3CE00E2CA60 /* TextState.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		94FE3CD8275EF23B00E2CA60 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CD9275EF24A00E2CA60 /* Transfer */,
+				94FE3CC5275EDF7F00E2CA60 /* Core */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		94FE3CD9275EF24A00E2CA60 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CEB275EF4C300E2CA60 /* Entities */,
+				94FE3CDC275EF27A00E2CA60 /* ViewModel */,
+				94FE3CDA275EF26000E2CA60 /* View */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		94FE3CDA275EF26000E2CA60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CDB275EF26800E2CA60 /* Recipient */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94FE3CDB275EF26800E2CA60 /* Recipient */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */,
+				94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */,
+			);
+			path = Recipient;
+			sourceTree = "<group>";
+		};
+		94FE3CDC275EF27A00E2CA60 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		94FE3CE1275EF35D00E2CA60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CE2275EF36A00E2CA60 /* InputTextView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94FE3CE2275EF36A00E2CA60 /* InputTextView */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CE3275EF39200E2CA60 /* InputTextView.swift */,
+				94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */,
+				94FE3CE9275EF42900E2CA60 /* InputTextView.xib */,
+			);
+			path = InputTextView;
+			sourceTree = "<group>";
+		};
+		94FE3CEB275EF4C300E2CA60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CEC275EF4D100E2CA60 /* Country.swift */,
+				94FE3CEE275EF4F800E2CA60 /* CountryOption.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C2B3E86AC66F6355A5E0398E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C87BB9178FB32035EADE30C /* Pods_PenguinPayApp.framework */,
+				5D59CDD2DC5B6377F32F3BFF /* Pods_PenguinPayApp_PenguinPayAppUITests.framework */,
+				182E3360AF1C4DCFDBFCBD68 /* Pods_PenguinPayAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94FE3CBC275EDDAD00E2CA60 /* Build configuration list for PBXNativeTarget "PenguinPayApp" */;
 			buildPhases = (
+				CBF531A42C6489F1F4176122 /* [CP] Check Pods Manifest.lock */,
 				94FE3C8E275EDDA800E2CA60 /* Sources */,
 				94FE3C8F275EDDA800E2CA60 /* Frameworks */,
 				94FE3C90275EDDA800E2CA60 /* Resources */,
+				09FEBA35A89CA87DC9DE2D44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94FE3CBF275EDDAD00E2CA60 /* Build configuration list for PBXNativeTarget "PenguinPayAppTests" */;
 			buildPhases = (
+				3660ECDB108CD80F491AF071 /* [CP] Check Pods Manifest.lock */,
 				94FE3CA4275EDDAD00E2CA60 /* Sources */,
 				94FE3CA5275EDDAD00E2CA60 /* Frameworks */,
 				94FE3CA6275EDDAD00E2CA60 /* Resources */,
@@ -169,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94FE3CC2275EDDAD00E2CA60 /* Build configuration list for PBXNativeTarget "PenguinPayAppUITests" */;
 			buildPhases = (
+				DB16571BF53F2A9DF44431CB /* [CP] Check Pods Manifest.lock */,
 				94FE3CAE275EDDAD00E2CA60 /* Sources */,
 				94FE3CAF275EDDAD00E2CA60 /* Frameworks */,
 				94FE3CB0275EDDAD00E2CA60 /* Resources */,
+				0063F32A64E537E9F5A334F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +418,8 @@
 			files = (
 				94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */,
 				94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */,
-				94FE3C9D275EDDA800E2CA60 /* Main.storyboard in Resources */,
+				94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */,
+				94FE3CE0275EF2A200E2CA60 /* RecipientViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +439,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0063F32A64E537E9F5A334F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09FEBA35A89CA87DC9DE2D44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3660ECDB108CD80F491AF071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenguinPayAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF531A42C6489F1F4176122 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenguinPayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB16571BF53F2A9DF44431CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenguinPayApp-PenguinPayAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94FE3C8E275EDDA800E2CA60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94FE3C9A275EDDA800E2CA60 /* ViewController.swift in Sources */,
+				94FE3CCB275EDFF400E2CA60 /* Renderable.swift in Sources */,
+				94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */,
+				94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */,
+				94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */,
+				94FE3CED275EF4D100E2CA60 /* Country.swift in Sources */,
+				94FE3CEF275EF4F800E2CA60 /* CountryOption.swift in Sources */,
+				94FE3CE8275EF3CE00E2CA60 /* TextState.swift in Sources */,
+				94FE3CDF275EF2A200E2CA60 /* RecipientViewController.swift in Sources */,
+				94FE3CCD275EE03400E2CA60 /* String.swift in Sources */,
+				94FE3CE4275EF39200E2CA60 /* InputTextView.swift in Sources */,
+				94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */,
+				94FE3CE6275EF3B200E2CA60 /* InputTextViewArgs.swift in Sources */,
 				94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */,
-				94FE3C98275EDDA800E2CA60 /* SceneDelegate.swift in Sources */,
+				94FE3CD5275EE09300E2CA60 /* ContentRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +597,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		94FE3C9B275EDDA800E2CA60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94FE3C9C275EDDA800E2CA60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		94FE3CA0275EDDAC00E2CA60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +726,7 @@
 		};
 		94FE3CBD275EDDAD00E2CA60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +737,6 @@
 				INFOPLIST_FILE = PenguinPayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +754,7 @@
 		};
 		94FE3CBE275EDDAD00E2CA60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAEE3078B357CFC4333046B /* Pods-PenguinPayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +765,6 @@
 				INFOPLIST_FILE = PenguinPayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,6 +782,7 @@
 		};
 		94FE3CC0275EDDAD00E2CA60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6169893178A6BCC56F0923 /* Pods-PenguinPayAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +808,7 @@
 		};
 		94FE3CC1275EDDAD00E2CA60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357BAF9D830F71A7C631D1AB /* Pods-PenguinPayAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +834,7 @@
 		};
 		94FE3CC3275EDDAD00E2CA60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +858,7 @@
 		};
 		94FE3CC4275EDDAD00E2CA60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
