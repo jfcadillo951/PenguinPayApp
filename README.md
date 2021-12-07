@@ -24,7 +24,7 @@ struct ServerConstants {
     ....
 }
 ```
-
+- Execute `pod install` in the terminal
 - Run the proyect
 
 ## Pending Requirements
