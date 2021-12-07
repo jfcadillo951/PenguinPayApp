@@ -95,12 +95,14 @@ private extension TransferMoneyViewModel {
             guard let self = self else {
                 return
             }
-            self.isLoadingSubject.onNext(false)
-            switch result {
-            case .success(let rates):
-                self.ratesRelay.accept(rates)
-            case .failure(_):
-                self.errorRatesSubject.onNext(())
+            DispatchQueue.main.async {
+                self.isLoadingSubject.onNext(false)
+                switch result {
+                case .success(let rates):
+                    self.ratesRelay.accept(rates)
+                case .failure(_):
+                    self.errorRatesSubject.onNext(())
+                }
             }
         }
     }
