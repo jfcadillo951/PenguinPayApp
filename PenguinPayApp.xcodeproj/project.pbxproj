@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3C95275EDDA800E2CA60 /* AppDelegate.swift */; };
-		94FE3C98275EDDA800E2CA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3C97275EDDA800E2CA60 /* SceneDelegate.swift */; };
-		94FE3C9A275EDDA800E2CA60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3C99275EDDA800E2CA60 /* ViewController.swift */; };
-		94FE3C9D275EDDA800E2CA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3C9B275EDDA800E2CA60 /* Main.storyboard */; };
 		94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3C9E275EDDAC00E2CA60 /* Assets.xcassets */; };
 		94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CA0275EDDAC00E2CA60 /* LaunchScreen.storyboard */; };
 		94FE3CAD275EDDAD00E2CA60 /* PenguinPayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CAC275EDDAD00E2CA60 /* PenguinPayAppTests.swift */; };
 		94FE3CB7275EDDAD00E2CA60 /* PenguinPayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CB6275EDDAD00E2CA60 /* PenguinPayAppUITests.swift */; };
 		94FE3CB9275EDDAD00E2CA60 /* PenguinPayAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CB8275EDDAD00E2CA60 /* PenguinPayAppUITestsLaunchTests.swift */; };
+		94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CC7275EDFBF00E2CA60 /* ServerConstants.swift */; };
+		94FE3CCB275EDFF400E2CA60 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CCA275EDFF400E2CA60 /* Renderable.swift */; };
+		94FE3CCD275EE03400E2CA60 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CCC275EE03400E2CA60 /* String.swift */; };
+		94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD0275EE07000E2CA60 /* CaseResult.swift */; };
+		94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */; };
+		94FE3CD5275EE09300E2CA60 /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */; };
+		94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +42,6 @@
 /* Begin PBXFileReference section */
 		94FE3C92275EDDA800E2CA60 /* PenguinPayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenguinPayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FE3C95275EDDA800E2CA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94FE3C97275EDDA800E2CA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94FE3C99275EDDA800E2CA60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94FE3C9C275EDDA800E2CA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94FE3C9E275EDDAC00E2CA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94FE3CA1275EDDAC00E2CA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94FE3CA3275EDDAC00E2CA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,13 @@
 		94FE3CB2275EDDAD00E2CA60 /* PenguinPayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenguinPayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FE3CB6275EDDAD00E2CA60 /* PenguinPayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinPayAppUITests.swift; sourceTree = "<group>"; };
 		94FE3CB8275EDDAD00E2CA60 /* PenguinPayAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinPayAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94FE3CC7275EDFBF00E2CA60 /* ServerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConstants.swift; sourceTree = "<group>"; };
+		94FE3CCA275EDFF400E2CA60 /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		94FE3CCC275EE03400E2CA60 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		94FE3CD0275EE07000E2CA60 /* CaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseResult.swift; sourceTree = "<group>"; };
+		94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRates.swift; sourceTree = "<group>"; };
+		94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
+		94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,8 @@
 		94FE3C94275EDDA800E2CA60 /* PenguinPayApp */ = {
 			isa = PBXGroup;
 			children = (
+				94FE3CC5275EDF7F00E2CA60 /* Core */,
 				94FE3C95275EDDA800E2CA60 /* AppDelegate.swift */,
-				94FE3C97275EDDA800E2CA60 /* SceneDelegate.swift */,
-				94FE3C99275EDDA800E2CA60 /* ViewController.swift */,
-				94FE3C9B275EDDA800E2CA60 /* Main.storyboard */,
 				94FE3C9E275EDDAC00E2CA60 /* Assets.xcassets */,
 				94FE3CA0275EDDAC00E2CA60 /* LaunchScreen.storyboard */,
 				94FE3CA3275EDDAC00E2CA60 /* Info.plist */,
@@ -125,6 +131,52 @@
 				94FE3CB8275EDDAD00E2CA60 /* PenguinPayAppUITestsLaunchTests.swift */,
 			);
 			path = PenguinPayAppUITests;
+			sourceTree = "<group>";
+		};
+		94FE3CC5275EDF7F00E2CA60 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CCF275EE05F00E2CA60 /* Entities */,
+				94FE3CCE275EE05400E2CA60 /* Repository */,
+				94FE3CC9275EDFE300E2CA60 /* Extension */,
+				94FE3CC6275EDFB100E2CA60 /* Constants */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94FE3CC6275EDFB100E2CA60 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CC7275EDFBF00E2CA60 /* ServerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94FE3CC9275EDFE300E2CA60 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CCA275EDFF400E2CA60 /* Renderable.swift */,
+				94FE3CCC275EE03400E2CA60 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		94FE3CCE275EE05400E2CA60 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CD4275EE09300E2CA60 /* ContentRepository.swift */,
+				94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		94FE3CCF275EE05F00E2CA60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CD0275EE07000E2CA60 /* CaseResult.swift */,
+				94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +285,6 @@
 			files = (
 				94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */,
 				94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */,
-				94FE3C9D275EDDA800E2CA60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94FE3C9A275EDDA800E2CA60 /* ViewController.swift in Sources */,
+				94FE3CCB275EDFF400E2CA60 /* Renderable.swift in Sources */,
+				94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */,
+				94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */,
+				94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */,
+				94FE3CCD275EE03400E2CA60 /* String.swift in Sources */,
+				94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */,
 				94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */,
-				94FE3C98275EDDA800E2CA60 /* SceneDelegate.swift in Sources */,
+				94FE3CD5275EE09300E2CA60 /* ContentRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		94FE3C9B275EDDA800E2CA60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94FE3C9C275EDDA800E2CA60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		94FE3CA0275EDDAC00E2CA60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +492,6 @@
 				INFOPLIST_FILE = PenguinPayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +519,6 @@
 				INFOPLIST_FILE = PenguinPayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
