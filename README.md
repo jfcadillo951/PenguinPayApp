@@ -7,7 +7,7 @@
 Pods:
 - RxSwift
 - RxCocoa
-- Cucko: for unit testsing mock
+- MBProgressHUD: for hud display
 
 ## Requirements
 
