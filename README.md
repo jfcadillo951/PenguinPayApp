@@ -5,8 +5,8 @@
 
 ## Dependencies of the project:
 Pods:
-- RxSwift
-- RxCocoa
+- RxSwift: for iOS 12+ support
+- RxCocoa: for iOS 12+ support
 - MBProgressHUD: for hud display
 
 ## Requirements
