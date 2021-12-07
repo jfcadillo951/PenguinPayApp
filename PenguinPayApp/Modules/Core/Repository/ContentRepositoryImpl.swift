@@ -11,6 +11,7 @@ final class ContentRepositoryImpl: ContentRepository {
     func getExchangeRates(_ onCompletion: @escaping (CaseResult<ExchangeRates>) -> Void) {
         let urlString = ServerContants.Enpoint.latestEndpoint + "?app_id=\(ServerContants.apiKey)"
         guard let url = URL(string: urlString) else {
+            onCompletion(.failure(nil))
             return
         }
         let urlRequest = URLRequest(url: url)

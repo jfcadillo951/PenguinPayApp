@@ -71,6 +71,10 @@ private extension RecipientViewController {
             self.doneButton.isEnabled = value
         }).disposed(by: disposeBag)
         viewModel.openNextViewObservable.subscribe(onNext: { [weak self] value in
+            guard let self = self else {return}
+            let viewController = TransferMoneyViewController()
+            viewController.recipient = value
+            self.navigationController?.pushViewController(viewController, animated: true)
         }).disposed(by: disposeBag)
     }
     func displayPicker() {
