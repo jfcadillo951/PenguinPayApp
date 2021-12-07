@@ -25,6 +25,10 @@
 		94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */; };
 		94FE3CDF275EF2A200E2CA60 /* RecipientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */; };
 		94FE3CE0275EF2A200E2CA60 /* RecipientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */; };
+		94FE3CE4275EF39200E2CA60 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE3275EF39200E2CA60 /* InputTextView.swift */; };
+		94FE3CE6275EF3B200E2CA60 /* InputTextViewArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */; };
+		94FE3CE8275EF3CE00E2CA60 /* TextState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE3CE7275EF3CE00E2CA60 /* TextState.swift */; };
+		94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FE3CE9275EF42900E2CA60 /* InputTextView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		94FE3CD6275EE0A500E2CA60 /* ContentRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryImpl.swift; sourceTree = "<group>"; };
 		94FE3CDD275EF2A200E2CA60 /* RecipientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientViewController.swift; sourceTree = "<group>"; };
 		94FE3CDE275EF2A200E2CA60 /* RecipientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipientViewController.xib; sourceTree = "<group>"; };
+		94FE3CE3275EF39200E2CA60 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextViewArgs.swift; sourceTree = "<group>"; };
+		94FE3CE7275EF3CE00E2CA60 /* TextState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextState.swift; sourceTree = "<group>"; };
+		94FE3CE9275EF42900E2CA60 /* InputTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputTextView.xib; sourceTree = "<group>"; };
 		9F9A65FCCDF67A2F34C4360C /* Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B216F2A15E004C3EB809C972 /* Pods-PenguinPayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp.debug.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp/Pods-PenguinPayApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DBDB571217D76323DA7A9AEC /* Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PenguinPayApp-PenguinPayAppUITests/Pods-PenguinPayApp-PenguinPayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +178,7 @@
 		94FE3CC5275EDF7F00E2CA60 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				94FE3CE1275EF35D00E2CA60 /* View */,
 				94FE3CCF275EE05F00E2CA60 /* Entities */,
 				94FE3CCE275EE05400E2CA60 /* Repository */,
 				94FE3CC9275EDFE300E2CA60 /* Extension */,
@@ -209,6 +218,7 @@
 			children = (
 				94FE3CD0275EE07000E2CA60 /* CaseResult.swift */,
 				94FE3CD2275EE08200E2CA60 /* ExchangeRates.swift */,
+				94FE3CE7275EF3CE00E2CA60 /* TextState.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -253,6 +263,24 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		94FE3CE1275EF35D00E2CA60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CE2275EF36A00E2CA60 /* InputTextView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94FE3CE2275EF36A00E2CA60 /* InputTextView */ = {
+			isa = PBXGroup;
+			children = (
+				94FE3CE3275EF39200E2CA60 /* InputTextView.swift */,
+				94FE3CE5275EF3B200E2CA60 /* InputTextViewArgs.swift */,
+				94FE3CE9275EF42900E2CA60 /* InputTextView.xib */,
+			);
+			path = InputTextView;
 			sourceTree = "<group>";
 		};
 		C2B3E86AC66F6355A5E0398E /* Frameworks */ = {
@@ -376,6 +404,7 @@
 			files = (
 				94FE3CA2275EDDAC00E2CA60 /* LaunchScreen.storyboard in Resources */,
 				94FE3C9F275EDDAC00E2CA60 /* Assets.xcassets in Resources */,
+				94FE3CEA275EF42900E2CA60 /* InputTextView.xib in Resources */,
 				94FE3CE0275EF2A200E2CA60 /* RecipientViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,9 +537,12 @@
 				94FE3CC8275EDFBF00E2CA60 /* ServerConstants.swift in Sources */,
 				94FE3CD1275EE07000E2CA60 /* CaseResult.swift in Sources */,
 				94FE3CD7275EE0A500E2CA60 /* ContentRepositoryImpl.swift in Sources */,
+				94FE3CE8275EF3CE00E2CA60 /* TextState.swift in Sources */,
 				94FE3CDF275EF2A200E2CA60 /* RecipientViewController.swift in Sources */,
 				94FE3CCD275EE03400E2CA60 /* String.swift in Sources */,
+				94FE3CE4275EF39200E2CA60 /* InputTextView.swift in Sources */,
 				94FE3CD3275EE08200E2CA60 /* ExchangeRates.swift in Sources */,
+				94FE3CE6275EF3B200E2CA60 /* InputTextViewArgs.swift in Sources */,
 				94FE3C96275EDDA800E2CA60 /* AppDelegate.swift in Sources */,
 				94FE3CD5275EE09300E2CA60 /* ContentRepository.swift in Sources */,
 			);
