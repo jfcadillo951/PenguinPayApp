@@ -28,28 +28,28 @@
                 <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eox-JC-1Ev">
                     <rect key="frame" x="0.0" y="44" width="414" height="240"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yss-sZ-6ZV" customClass="InputTextView" customModule="DemoPenguin" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yss-sZ-6ZV" customClass="InputTextView" customModule="PenguinPayApp" customModuleProvider="target">
                             <rect key="frame" x="16" y="8" width="382" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" priority="500" id="uzl-XA-keT"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JmJ-WY-C6c" customClass="InputTextView" customModule="DemoPenguin" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JmJ-WY-C6c" customClass="InputTextView" customModule="PenguinPayApp" customModuleProvider="target">
                             <rect key="frame" x="16" y="66" width="382" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" priority="500" id="Vby-Ey-3YF"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rY-sN-4bB" customClass="CountryInputView" customModule="DemoPenguin" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rY-sN-4bB" customClass="CountryInputView" customModule="PenguinPayApp" customModuleProvider="target">
                             <rect key="frame" x="16" y="124" width="382" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" priority="500" id="d35-fY-nbf"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Fh-uR-ipi" customClass="InputTextView" customModule="DemoPenguin" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Fh-uR-ipi" customClass="InputTextView" customModule="PenguinPayApp" customModuleProvider="target">
                             <rect key="frame" x="16" y="182" width="382" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
